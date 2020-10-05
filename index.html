@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>playfair</title>
+	<link rel="stylesheet" type="text/css" href="play.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script type="text/javascript" src="play.js"></script>
+</head>
+<body><center>
+	<main class="container center">
+  <!-- <div class="row"> -->
+  	<div><h1> Playfair Cipher</h1></div>
+    <div id="wrapper" class="col-xs-6 col-xs-4 col-sm-offset-4">
+    <div class="form-group align">
+      <label class="control-label">Key word:</label>  
+      <input id="key" type="text" class="form-control" placeholder="Enter key" required>
+      <label class="control-label">Word or string:</label>
+      <input id="String" type="text" class="form-control otstup" placeholder="Enter a word or string">
+      <div>
+        <button class="btn btn-primary form-control" onclick="processKey(), cipher()">Code</button>
+      </div>
+      <div>
+        <h4 class="text-center" id="printValue"></h4>
+      </div>
+
+    </div>
+    </div>
+  
+</main></center>
+
+</body>
+</html>
